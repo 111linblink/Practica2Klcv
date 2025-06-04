@@ -3,7 +3,7 @@ name: My hello world
 
 #Evento
 on:
-  workflow_dispatch:
+  push:
 
 jobs:
   Tarea1:
