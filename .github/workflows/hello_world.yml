@@ -12,3 +12,9 @@ jobs:
     steps:
      - name: Digo hola
        run: echo "hola a todos"
+
+     - name: Quien Soy
+       run: whoami
+
+     - name: Fecha de Hoy
+       run: date
