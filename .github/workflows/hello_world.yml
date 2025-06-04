@@ -1,0 +1,14 @@
+#Nombre
+name: My hello world
+
+#Evento
+on:
+  workflow_dispatch:
+
+jobs:
+  Tarea1:
+    runs-on: ubuntu-latest
+
+    steps:
+     - name: Digo hola
+       run: echo "hola a todos"
